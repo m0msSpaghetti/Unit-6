@@ -13,7 +13,7 @@ body {
     border-bottom: 1px solid black;
 }
 
-#nav-links {does
+#nav-links {
     display: flex;
     gap: 1rem;
     margin: 0;
