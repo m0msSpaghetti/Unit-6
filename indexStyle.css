@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+#nav-links {does
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#login-button, #menu-button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+/* Why Buy Section */
+#why-buy-section {
+    position: relative;
+    margin: 1rem 0;
+}
+
+#why-buy-content {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+#why-buy-link {
+    margin: 0;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#why-buy-link h2 {
+    margin: 0;
+}
+
+.why-buy-button {
+    margin: 0;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#why-buy-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* Products Section */
+#products-section {
+    padding: 2rem 0;
+}
+
+#product-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.product-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.product-item h3 {
+    margin-top: 0.5rem;
+}
+
+/* Contact Section */
+#contact-section {
+    position: relative;
+    margin: 2rem 0;
+}
+
+#contact-content {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    display: flex;
+    gap: 1rem;
+}
+
+#sell-bike-link {
+    margin: 0;
+    padding: 1rem;
+    text-decoration: none;
+    flex: 2;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#reviews {
+    margin: 0;
+    padding: 1rem;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+#footer p {
+    margin: 0;
+}
